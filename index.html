@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Todo List</h1>
+
+<div class="thought">
+  <h2>What's on your mind?</h2>
+</div>
+
+<form id="todo-form">
+  <input type="text" id="todo-input" class="input" placeholder="Add a new todo...">
+</form>
+
+<ul id="todo-list" class="todos">
+</ul>
+
+<div class="buttons">
+  <button id="clear-completed">Clear Completed</button>
+  <button id="clear-all">Clear All</button>
+  <select id="sort">
+    <option value="default">Default</option>
+    <option value="asc">A-Z</option>
+    <option value="desc">Z-A</option>
+  </select>
+</div>
+
+<small>Click on a todo to mark it as completed. Right-click to edit/delete a todo.</small>
+
+<script src="script.js"></script>
+</body>
+</html>
